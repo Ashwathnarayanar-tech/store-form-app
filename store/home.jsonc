@@ -1,0 +1,182 @@
+/* --- Demo usage of vtex-store-form app
+{
+    "store.home": {
+        "blocks": [
+            "store-form#email",
+            "store-form#radio",
+            "store-form#text",
+            "store-form#password",
+            "store-form#search",
+            "store-form#url",
+            "store-form#range",
+            "store-form#time",
+            "store-form#button",
+            "store-form#checkbox",
+            "store-form#favColor",
+            "store-form#file",
+            "store-form#number",
+            "store-form#telNumber",
+            "store-form#date"
+        ],
+        "parent": {
+            "challenge": "challenge.trade-policy-condition"
+        }
+    },
+    "challenge.trade-policy-condition": {
+        "props": {
+            "redirectPath": "/login",
+            "defaultContentVisibility": "hidden"
+        }
+    },
+    "store-form#email": {
+        "props": {
+            "type": "input-email",
+            "label": "Enter your email",
+            "href": "/account",
+            "placeholder": "username@echidna.com",
+            "pattern": "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$",
+            "button_name": "Submit",
+            "blockClass": "form-email"
+        }
+    },
+    "store-form#radio": {
+        "props": {
+            "type": "input-radio",
+            "label": [
+                "Nissan",
+                "Echidna",
+                "VTEX"
+            ],
+            "button_name": "Submit",
+            "blockClass": "form-radio"
+        }
+    },
+    "store-form#text": {
+        "props": {
+            "type": "input-text",
+            "label": [
+                "First Name :",
+                "Last Name :"
+            ],
+            "pattern": "[A-Za-z]{10}",
+            "button_name": "Submit",
+            "blockClass": "form-text"
+        }
+    },
+    "store-form#password": {
+        "props": {
+            "type": "input-password",
+            "usernameLabel": "Please enter the user name :",
+            "passwordLabel": "Please enter the password :",
+            "usernameHoverLabel": "Only alphabets allowed. Special characters are not allowed",
+            "usernamePattern": "[A-Za-z0-9]{10}",
+            "passwordHoverLabel": "Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters",
+            "passwordPattern": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}",
+            "button_name": "Submit",
+            "blockClass": "form-password"
+        }
+    },
+    "store-form#search": {
+        "props": {
+            "type": "input-search",
+            "searchLabel": "Google Search",
+            "button_name": "Search",
+            "searchHoverLabel": "Special characters not allowed",
+            "pattern": "[^'\\x22]+",
+            "blockClass": "form-search"
+        }
+    },
+    "store-form#url": {
+        "props": {
+            "type": "input-url",
+            "urlLabel": "Add your homepage:",
+            "button_name": "Submit",
+            "urlHoverLabel": "Include http://",
+            "pattern": "https?://.+",
+            "blockClass": "form-url"
+        }
+    },
+    "store-form#range": {
+        "props": {
+            "type": "input-range",
+            "rangeLabel": "Volume (between 0 and 50):",
+            "minValue": "0",
+            "maxValue": "50",
+            "button_name": "Submit",
+            "blockClass": "form-range"
+        }
+    },
+    "store-form#time": {
+        "props": {
+            "type": "input-time",
+            "timeLabel": "Select a time:",
+            "button_name": "Submit",
+            "blockClass": "form-time"
+        }
+    },
+    "store-form#button": {
+        "props": {
+            "type": "input-button",
+            "href": "/account",
+            "button_name": "Click here !!",
+            "blockClass": "form-button"
+        }
+    },
+    "store-form#checkbox": {
+        "props": {
+            "type": "input-checkbox",
+            "label": [
+                "Nissan",
+                "Echidna",
+                "VTEX"
+            ],
+            "button_name": "Submit",
+            "blockClass": "form-checkbox"
+        }
+    },
+    "store-form#favColor": {
+        "props": {
+            "type": "input-favColor",
+            "favcolorLabel": "Select your favorite color:",
+            "button_name": "Submit",
+            "blockClass": "form-favColor"
+        }
+    },
+    "store-form#file": {
+        "props": {
+            "type": "input-file",
+            "fileLabel": "Select a file:",
+            "button_name": "Submit",
+            "blockClass": "form-file"
+        }
+    },
+    "store-form#number": {
+        "props": {
+            "type": "input-number",
+            "numberLabel": "Quantity (between 1 and 5):",
+            "minValue": "1",
+            "maxValue": "5",
+            "button_name": "Submit",
+            "blockClass": "form-number"
+        }
+    },
+    "store-form#telNumber": {
+        "props": {
+            "type": "input-telNumber",
+            "telnumberLabel": "Enter a phone number:",
+            "placeholder": "123-45-678",
+            "pattern": "[0-9]{3}-[0-9]{2}-[0-9]{3}",
+            "button_name": "Submit",
+            "blockClass": "form-telNumber"
+        }
+    },
+    "store-form#date": {
+        "props": {
+            "type": "input-date",
+            "selector": "week",
+            "dateLabel": "Birthday:",
+            "button_name": "Submit",
+            "blockClass": "form-date"
+        }
+    }
+}*/

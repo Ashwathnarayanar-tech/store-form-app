@@ -1,0 +1,22 @@
+{
+  "vendor": "echidna",
+  "name": "store-form-app",
+  "version": "0.0.1",
+  "title": "store-form-app",
+  "description": "store-form-app",
+  "builders": {
+    "styles": "2.x",
+    "store": "0.x",
+    "sitemap": "0.x",
+    "docs": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
