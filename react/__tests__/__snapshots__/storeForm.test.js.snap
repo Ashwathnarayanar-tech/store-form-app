@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoreForm - input-checkbox should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-confirmpassword should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-date should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-email should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-label should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-password should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-radio should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-submit should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-text should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`StoreForm - input-username should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
